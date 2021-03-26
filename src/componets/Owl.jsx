@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 export default class Owl extends Component {
   render() {
       return (
+    <div className="mt-28">
       <OwlCarousel
       className="owl-theme"
       items="3"
@@ -65,6 +66,7 @@ export default class Owl extends Component {
         </div>
       </div>
       </OwlCarousel>
+      </div>
     );
   }
 }

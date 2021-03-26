@@ -5,39 +5,32 @@ import { Link } from "react-router-dom";
 export default class Nav extends Component {
   render() {
     return (
-        <div className=" flex flex-row items-center p-4 justify-between bg-white  shadow-lg">
-          {/* <div class="ml-8 text-lg text-gray-700 hidden md:flex">My Website</div> */}
-          <span className="ml-10 w-screen md:w-1/3 h-10  cursor-pointer border border-gray-300 text-sm rounded-full flex">
-            <input
-              type="search"
-              name="serch"
-              placeholder="Search"
-              className="flex-grow px-4 rounded-l-full rounded-r-full text-sm focus:outline-none"
-            />
-            <i className="fas fa-search m-3 mr-5 text-lg text-gray-700 w-4 h-4" />
-          </span>
-            <Link to="/home">
-                <span className="mr-96">
-                <img src="https://res.cloudinary.com/desug/image/upload/v1614658900/Book%20/pluginlogo_gnhbmk.png" className="w-10 h-8" alt="" />
-                </span>
+        <header className="text-gray-600 body-font shadow-lg mb-8 fixed top-0 w-full z-10 bg-white">
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <div>
+              <div className="bg-white flex items-center rounded-full border border-gray-700">
+                <input className="rounded-full w-full py-1 px-6 text-gray-700 leading-tight focus:outline-none" id="search" type="text" placeholder="Search" />
+                <div className="p-2">
+                  <a href="./Browser.html" className=" text-gray-700 rounded-full p-2 focus:outline-none w-5 h-5 flex items-center justify-center">
+                    <i className="fa fa-search" aria-hidden="true" />
+                  </a> 
+                </div>
+              </div>
+            </div>
+          </nav>
+          <p className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+            <img alt="plugin" src="https://res.cloudinary.com/desug/image/upload/v1614658900/Book%20/pluginlogo_gnhbmk.png" srcSet className="h-12" />
+          </p>
+        
+          <p className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <Link to="/profile">
+            <img alt="plugin" src="https://res.cloudinary.com/zada/image/upload/v1614357120/avatar_y6a0zh.png" srcSet className="h-12" />
             </Link>
+          </p>
           
-          <div className="flex flex-row-reverse mr-4 ml-4 md:hidden">
-            <i className="fas fa-bars" />
-          </div>
-          <div className="flex flex-row-reverse mr-8 hidden md:flex">
-            {/* <div class="bg-white px-4 py-2 m-2" style="background-image: none;">
-                    <img src="assets/hmtl.jpg" class="rounded-full h-5 w-5 flex items-center justify-center" alt="">
-                </div> */}
-            <a href="profil.html">
-              <img
-                src="assets/Circled User Male Skin Type 7.png"
-                className="h-3 h-5"
-                alt=""
-              />
-            </a>
-          </div>
         </div>
-    );
+      </header>
+      );
   }
 }

@@ -8,8 +8,7 @@ const Books = ()=>{
     return(
         <>
         <NavComponents/>
-        <div className="flex flex-wrap bg-gray-100 w-full h-screen mt-10">
-
+        <div className="flex flex-wrap bg-gray-100 w-full h-screen mt-28">
         <Sidabars/>
         <Bookss/>
  
