@@ -710,7 +710,9 @@ export default class Browser extends Component {
                 <span>
                   <i className="fas fa-tachometer-alt" />
                 </span>
+                <Link to="/detailcategory">
                 <span>Technology</span>
+                </Link>
               </a>
             </li>
             <li>

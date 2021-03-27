@@ -5,134 +5,135 @@ import { Link } from "react-router-dom";
 export default class BookDescription extends Component {
     render() {
         return (
-            <div>
-       
-        <section className="text-gray-600 body-font overflow-hidden">
-          <div className="container px-5 py-12 mx-auto">
-            <div className="lg:w-4/5 mx-auto flex flex-wrap">
-              <img alt="ecommerce" className="lg:w-1/3 w-10/12 lg:h-auto h-40 object-cover object-center rounded" src="https://res.cloudinary.com/desug/image/upload/v1613768459/Book%20/hmtl_uhhaxa.jpg" />
-              <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-                <h1 className="text-gray-500 text-3xl title-font font-medium mb-1">At The Going Down of the Sun</h1>
-                <h2 className="text-sm title-font text-gray-500 tracking-widest">Marius Oelsching</h2>
-                <div className="flex mb-4 mt-2">
-                  <span className="flex items-center">
-                    <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                    <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                    <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                    <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
-                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                    </svg>
-                  </span></div>
-                <table className="table-auto">
-                  <tbody>
-                    <tr>
-                      <td className="w-28">Publisher</td>
-                      <td>Gramedia Pustaka Utama</td>
-                    </tr>
-                    <tr>
-                      <td className="w-28">ISBN</td>
-                      <td>1234567890</td>
-                    </tr>
-                    <tr>
-                      <td className="w-28">Pages</td>
-                      <td>1000 hlm</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <div className="flex">
-                    <Link to="/borrow">
-                  <button className="flex mt-10 rounded-full text-white bg-blue-400 border py-2 px-6 focus:outline-none hover:bg-gray-300">Borrow</button>
-                  </Link>
-                  <button className="flex mt-10 ml-6 text-gray-700 bg-white border border-gray-700 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded-full">Chat</button>
-                </div>
-              </div>
+            <div >
+
+                <section className="text-gray-600 body-font overflow-hidden mt-10">
+                    <div className="container px-5 py-12 mx-auto">
+                        <div className="lg:w-4/5 mx-auto flex flex-wrap">
+                            <img alt="ecommerce" className="lg:w-1/3 w-10/12 lg:h-auto h-40 object-cover object-center rounded" src="https://res.cloudinary.com/desug/image/upload/v1613768459/Book%20/hmtl_uhhaxa.jpg" />
+                            <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                                <h1 className="text-gray-500 text-3xl title-font font-medium mb-1">At The Going Down of the Sun</h1>
+                                <h2 className="text-sm title-font text-gray-500 tracking-widest">Marius Oelsching</h2>
+                                <div className="flex mb-4 mt-2">
+                                    <span className="flex items-center">
+                                        <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                        </svg>
+                                        <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                        </svg>
+                                        <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                        </svg>
+                                        <svg fill="currentColor" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                        </svg>
+                                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-4 h-4 text-yellow-400" viewBox="0 0 24 24">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                        </svg>
+                                    </span></div>
+                                <table className="table-auto">
+                                    <tbody>
+                                        <tr>
+                                            <td className="w-28">Publisher</td>
+                                            <td>Gramedia Pustaka Utama</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="w-28">ISBN</td>
+                                            <td>1234567890</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="w-28">Pages</td>
+                                            <td>1000 hlm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div className="flex">
+                                    <Link to="/borrow">
+                                        <button className="flex mt-10 rounded-full text-white bg-blue-400 border py-2 px-6 focus:outline-none hover:bg-gray-300">Borrow</button>
+                                    </Link>
+                                    <button className="flex mt-10 ml-6 text-gray-700 bg-white border border-gray-700 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded-full">Chat</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section className="text-gray-600 body-font py-16">
+                    <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Description</span>
+                    <div className="container px-5 py-6 mx-auto">
+                        <div className="lg:w-3/4 w-full mx-auto">
+                            <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
+                        </div>
+                    </div>
+                </section>
+                <section className="text-gray-600 body-font py-16">
+                    <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Discussion</span>
+                    <div className="container px-5 mx-auto">
+                        <div className="container px-5 py-12 mx-auto">
+                            <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-4 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+                                <div className="w-16 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 mr-3 -ml-16">
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-6 h-6" viewBox="0 0 24 24">
+                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                                        <circle cx={12} cy={7} r={4} />
+                                    </svg>
+                                </div>
+                                <div className="relative flex-grow w-full">
+                                    <input type="email" id="email" name="email" className="w-full h-16 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                                </div>
+                            </div>
+                            <div className="flex justify-end mt-6">
+                                <button className="text-white mr-48 bg-plugin py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="text-gray-600 body-font">
+                    <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Total 777</span>
+                    <div className="flex flex-col sm:flex-row mt-10">
+                        <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
+                            <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
+                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                                    <circle cx={12} cy={7} r={4} />
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
+                            <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
+                            <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row mt-10">
+                        <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
+                            <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
+                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                                    <circle cx={12} cy={7} r={4} />
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
+                            <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
+                            <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col sm:flex-row mt-10">
+                        <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
+                            <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
+                                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                                    <circle cx={12} cy={7} r={4} />
+                                </svg>
+                            </div>
+                        </div>
+                        <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
+                            <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
+                            <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
+                        </div>
+                    </div>
+                </section>
             </div>
-          </div>
-        </section>
-        <section className="text-gray-600 body-font py-16">
-          <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Description</span>
-          <div className="container px-5 py-6 mx-auto">
-            <div className="lg:w-3/4 w-full mx-auto">
-              <p className="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware. Man bun next level coloring book skateboard four loko knausgaard. Kitsch keffiyeh master cleanse direct trade indigo juice before they sold out gentrify plaid gastropub normcore XOXO 90's pickled cindigo jean shorts. Slow-carb next level shoindigoitch ethical authentic, yr scenester sriracha forage franzen organic drinking vinegar.</p>
-            </div>
-          </div>
-        </section>
-        <section className="text-gray-600 body-font py-16">
-          <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Discussion</span>
-          <div className="container px-5 mx-auto">
-            <div className="container px-5 py-12 mx-auto">
-              <div className="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-4 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-                <div className="w-16 h-14 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4 mr-3 -ml-16">
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-6 h-6" viewBox="0 0 24 24">
-                    <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                    <circle cx={12} cy={7} r={4} />
-                  </svg>
-                </div>
-                <div className="relative flex-grow w-full">
-                  <input type="email" id="email" name="email" className="w-full h-16 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-                </div>
-              </div>
-              <div className="flex justify-end mt-6">
-                <button className="text-white mr-48 bg-plugin py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Send</button>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="text-gray-600 body-font">
-          <span className="inline-block font-semibold text-3xl text-gray-700 ml-28 lg:ml-20 md:ml-12 sm:ml-8 pb-4">Total 777</span>
-          <div className="flex flex-col sm:flex-row mt-10">
-            <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
-              <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                  <circle cx={12} cy={7} r={4} />
-                </svg>
-              </div>
-            </div>
-            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
-              <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
-              <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row mt-10">
-            <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
-              <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                  <circle cx={12} cy={7} r={4} />
-                </svg>
-              </div>
-            </div>
-            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
-              <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
-              <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
-            </div>
-          </div>
-          <div className="flex flex-col sm:flex-row mt-10">
-            <div className="sm:w-1/5 text-center sm:pr-8 sm:py-8">
-              <div className="w-15 h-15 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} className="w-10 h-10" viewBox="0 0 24 24">
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
-                  <circle cx={12} cy={7} r={4} />
-                </svg>
-              </div>
-            </div>
-            <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:mt-0 text-center sm:text-left">
-              <h2 className="font-semibold title-font -mt-4 text-gray-900 text-lg">Phoebe Caulfield</h2>
-              <p className="leading-relaxed text-base mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.</p>
-            </div>
-          </div>
-        </section>
-      </div>
 
         )
     }

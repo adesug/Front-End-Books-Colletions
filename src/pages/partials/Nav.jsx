@@ -19,9 +19,13 @@ export default class Nav extends Component {
               </div>
             </div>
           </nav>
+          
           <p className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+              <Link to="/home">
             <img alt="plugin" src="https://res.cloudinary.com/desug/image/upload/v1614658900/Book%20/pluginlogo_gnhbmk.png" srcSet className="h-12" />
+            </Link>
           </p>
+       
         
           <p className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <Link to="/profile">

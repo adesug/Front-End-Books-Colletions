@@ -10,6 +10,7 @@ import Profile from "./pages/Profile";
 import Outofdate from "./pages/Outofdate";
 import Books from "./pages/Books";
 import Waiting from "./pages/Waiting";
+import DetailCategory from "./pages/DetailCategory";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/outofdate" component={Outofdate}/>
       <Route path="/books" component={Books}/>
       <Route path="/waiting" component={Waiting}/>
+      <Route path="/detailcategory" component={DetailCategory}/>
       
 
 
