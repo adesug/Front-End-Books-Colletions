@@ -5,7 +5,7 @@ export default class Borrow extends Component {
     render() {
         return (
         <div>
-            <section className="text-gray-600 body-font overflow-hidden">
+            <section className="text-gray-600 body-font overflow-hidden mt-10">
                 <div className="container px-5 py-12 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
                     <img alt="ecommerce" className="lg:w-1/3 w-10/12 lg:h-auto h-40 object-cover object-center rounded" src="https://res.cloudinary.com/desug/image/upload/v1613768450/Book%20/javascript_odkh3c.jpg" />

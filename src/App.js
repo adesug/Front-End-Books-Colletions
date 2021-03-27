@@ -11,6 +11,7 @@ import Outofdate from "./pages/Outofdate";
 import Books from "./pages/Books";
 import Waiting from "./pages/Waiting";
 import DetailCategory from "./pages/DetailCategory";
+import UploadBooks from "./pages/UploadBooks";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Route path="/books" component={Books}/>
       <Route path="/waiting" component={Waiting}/>
       <Route path="/detailcategory" component={DetailCategory}/>
+      <Route path="/uploadbook" component={UploadBooks}/>
       
 
 

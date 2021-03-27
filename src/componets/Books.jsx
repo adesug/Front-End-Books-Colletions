@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default class Books extends Component {
     render() {
@@ -102,11 +104,11 @@ export default class Books extends Component {
                     </div>
                 </section>
                 <a href="uploadBook.html">
-                    <div className="flex">
-                        <button className="ml-auto mr-24 rounded-full text-white bg-blue-400 border py-4 px-6 focus:outline-none hover:bg-gray-300">
-                            Add Book
-            </button>
+                    <Link to ="/uploadbook">
+                    <div className="flex"> 
+                        <button className="ml-auto mr-24 rounded-full text-white bg-blue-400 border py-4 px-6 focus:outline-none hover:bg-gray-300">Add Book</button>  
                     </div>
+                    </Link>
                 </a>
             </div>
         )
