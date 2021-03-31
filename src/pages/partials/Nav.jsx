@@ -29,7 +29,7 @@ export default class Nav extends Component {
         
           <p className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
           <Link to="/profile">
-            <img alt="plugin" src="https://res.cloudinary.com/zada/image/upload/v1614357120/avatar_y6a0zh.png" srcSet className="h-12" />
+            <img alt="plugin" src="https://res.cloudinary.com/desug/image/upload/v1616837846/Book%20/Circled_User_Male_Skin_Type_7_mfuhim.png" srcSet className="h-12" />
             </Link>
           </p>
           

@@ -6,7 +6,7 @@ export default class Profile extends Component {
                 <div className="w-9/12 bg-white border-l shadow-xl">
                     <section className="text-gray-600 body-font">
                         <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col">
-                            <img className="lg:w-24 md:w-24 w-24 object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/zada/image/upload/v1614357120/avatar_y6a0zh.png" />
+                            <img className="lg:w-24 md:w-24 w-24 object-cover object-center rounded" alt="hero" src="https://res.cloudinary.com/desug/image/upload/v1616837846/Book%20/Circled_User_Male_Skin_Type_7_mfuhim.png" />
                             <div className="lg:w-4/5 md:w-1/2 bg-white flex flex-col w-full md:py-8 mt-8 md:mt-0">
                                 <div className="relative mb-4">
                                     <label htmlFor="name" className="leading-7 text-sm text-gray-600">Username</label>
