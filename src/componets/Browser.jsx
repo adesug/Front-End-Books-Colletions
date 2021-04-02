@@ -708,7 +708,7 @@ export default class Browser extends Component {
                   <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333657/Book%20/Group_18_d5rwni.png"
                         alt=""
                       />
                     </span>
@@ -720,7 +720,7 @@ export default class Browser extends Component {
                 <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333620/Book%20/Group_17_orvp0m.png"
                         alt=""
                       />
                     </span>
@@ -731,7 +731,7 @@ export default class Browser extends Component {
                 <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333618/Book%20/Group_16_z1goeh.png"
                         alt=""
                       />
                     </span>
@@ -742,7 +742,7 @@ export default class Browser extends Component {
                 <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333617/Book%20/Group_15_gkoh6a.png"
                         alt=""
                       />
                     </span>
@@ -753,7 +753,7 @@ export default class Browser extends Component {
                 <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333615/Book%20/Group_14_ioznq1.png"
                         alt=""
                       />
                     </span>
@@ -764,7 +764,7 @@ export default class Browser extends Component {
                 <p className="flex items-center space-x-3 text-gray-700 p-2 rounded-md font-medium focus:shadow-outline">
                     <span>
                       <img
-                        src="https://res.cloudinary.com/setiyawan/image/upload/v1614382507/plugin/Group_18_phcpwz.png"
+                        src="https://res.cloudinary.com/desug/image/upload/v1617333614/Book%20/Group_13_wueici.png"
                         alt=""
                       />
                     </span>

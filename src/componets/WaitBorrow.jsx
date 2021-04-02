@@ -10,7 +10,7 @@ export default class WaitBorrow extends Component {
                 <section className="text-gray-600 body-font overflow-hidde n">
                     <p className="ml-4 font-extrabold mt-5">Your Books</p>
                     <div className="container mx-auto flex px-5 py-12 items-center justify-center flex-col ">
-                        <div className="container mx-auto ml-2">
+                        <div className="container mx-auto ">
                             <div className="flex space-x-4">
                                 <div className="flex flex-wrap h-30 w-60 shadow-md bg-white">
                                     <div className="w-1/2">
@@ -50,7 +50,7 @@ export default class WaitBorrow extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="container mx-auto ml-2 mt-5">
+                        <div className="container mx-auto mt-5">
                             <div className="flex space-x-4">
                                 <div className="flex flex-wrap h-30 w-60 shadow-md bg-white">
                                     <div className="w-1/2">
