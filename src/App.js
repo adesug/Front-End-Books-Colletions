@@ -35,7 +35,6 @@ function App() {
       <Route path="/detailcategory" component={DetailCategory}/>
       <Route path="/uploadbook" component={UploadBooks}/>
       <Route path="/waitingdetail" component={WaitingDetail}/>
-      {/* <Route path="/homenolog" component={HomeNolog}/> */}
       <Route path="/bookdescnolog" component={BookDescNolog}/>
       <Route path="/detailcategorynolog" component={DetailCategoryNolog}/>
       
