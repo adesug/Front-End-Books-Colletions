@@ -11,11 +11,13 @@ export default class Owl extends Component {
         <OwlCarousel className="owl-theme" items="3" autoPlay dots margin={10}>
           <div className="flex flex-wrap h-70 w-90 shadow-lg bg-gradient-to-r from-green-400 to-blue-500 focus:from-pink-500 focus:to-yellow-500 rounded-md">
             <div className="w-1/3">
+              <Link to = "/bookdesc">
               <img
                 alt="team"
                 className="bg-left w-20 mt-4 shadow-sm"
                 src="https://res.cloudinary.com/desug/image/upload/v1614658820/Book%20/book4_tlwz3z.png"
               />
+              </Link>
             </div>
             <div className="w-1/3 ml-2 mt-10">
               <h3 className="text-black font-bold">Jak of the bulvet  Jak of the bulvet </h3>
