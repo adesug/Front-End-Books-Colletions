@@ -44,7 +44,7 @@ export default class SignUp extends Component {
                 Enter your personal details and start jurney with us
               </p>
               <p className="w-full px-3 mb-5">
-                <Link to="/">
+                <Link to="/login">
                   <button className="block w-full max-w-xs mx-auto bg-white hover:bg-indigo-700 focus:bg-indigo-700 text-blue-400 border-white-500 rounded-full px-3 py-3 font-semibold border-2 border-blue-400 focus:outline-none">
                     Sign In
                   </button>

@@ -13,12 +13,16 @@ import Waiting from "./pages/Waiting";
 import DetailCategory from "./pages/DetailCategory";
 import UploadBooks from "./pages/UploadBooks";
 import WaitingDetail from "./pages/WaitingDetail";
+import HomeNolog from "./pages/HomeNolog";
+import BookDescNolog from "./pages/BookDescNolog";
+import DetailCategoryNolog from "./pages/DetailCategoryNolog";
 
 function App() {
   return (
     <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Login}/>
+      <Route exact path="/" component={HomeNolog}/>
+      <Route path="/login" component={Login}/>
       <Route  path="/home" component={Home}/>
       <Route path="/signup" component={SignUp}/>
       <Route path="/bookdesc" component={BookDescription}/>
@@ -31,6 +35,9 @@ function App() {
       <Route path="/detailcategory" component={DetailCategory}/>
       <Route path="/uploadbook" component={UploadBooks}/>
       <Route path="/waitingdetail" component={WaitingDetail}/>
+      {/* <Route path="/homenolog" component={HomeNolog}/> */}
+      <Route path="/bookdescnolog" component={BookDescNolog}/>
+      <Route path="/detailcategorynolog" component={DetailCategoryNolog}/>
       
 
 

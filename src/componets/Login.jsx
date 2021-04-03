@@ -16,6 +16,7 @@ export default class Login extends Component {
             Enter your personal details and start jurney with us
           </p>
           <div className="justify-center">
+            <Link to = "/signup">
             <p className="w-full px-3 mb-5 ">
               <a
                 className="mx-auto bg-blue-500 hover:bg-indigo-700 focus:bg-indigo-700 text-white rounded-full px-10 py-4 font-semibold border-2 border-white-500 "
@@ -24,6 +25,7 @@ export default class Login extends Component {
                 Sign Up
               </a>
             </p>
+            </Link>
           </div>
         </div>
         <div className="p-5 bg-white md:flex-1 mt-40">
